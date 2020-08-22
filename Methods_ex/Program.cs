@@ -6,7 +6,7 @@ namespace Methods_ex
     {
         static void Main(string[] args)
         {
-
+            //------------------------Exercise #1------------------------
             //Name: Michael
             //Favorite Color: Blue
             //Favorite Animal: Walrus
@@ -23,6 +23,14 @@ namespace Methods_ex
 
             Console.WriteLine("Excellent! What is your favorite band?");
             var band = Console.ReadLine();
+
+            Console.WriteLine($"Thanks, {userName}!  Here is your profile.");
+            Console.WriteLine("--------------------------------");
+
+            Console.WriteLine($"Name: {userName}");
+            Console.WriteLine($"Favorite Color: {color}");
+            Console.WriteLine($"Favorite Animal: {animal}");
+            Console.WriteLine($"Favorite Band: {band}");
 
         }
     }
