@@ -26,7 +26,7 @@ namespace Methods_ex
             //Name: Michael
             //Favorite Color: Blue
             //Favorite Animal: Walrus
-            //Favorite Band: The Beatles
+            //Favorite Band: Van Halen
 
             Console.WriteLine("Hello! What is your first name?");
             var userName = Console.ReadLine();
